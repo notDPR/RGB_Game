@@ -13,13 +13,13 @@ for(var i=0;i<colors.length;i++)
 	squares[i].addEventListener("click" , function(){
 		if(this.style.background === ans) 
 			{ msgDisplay.textContent = "Correct" ;
-				new_colorB.textContent = "Nope" ;
+				new_colorB.textContent = "Play Again" ;
 			  rightanswer() ;
 
 			}
 		else {
 		 	this.style.background = "#232323" ;
-		 	msgDisplay.textContent = "Try Again" ;
+		 	msgDisplay.textContent = "Nope" ;
 		 }
 	});
 }
