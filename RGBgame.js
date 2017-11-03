@@ -13,7 +13,7 @@ for(var i=0;i<colors.length;i++)
 	squares[i].addEventListener("click" , function(){
 		if(this.style.background === ans) 
 			{ msgDisplay.textContent = "Correct" ;
-				new_colorB.textContent = "Play Again" ;
+				new_colorB.textContent = "Nope" ;
 			  rightanswer() ;
 
 			}
